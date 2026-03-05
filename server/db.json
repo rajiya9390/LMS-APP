@@ -1,0 +1,390 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "demo",
+      "email": "demo@gmail.com",
+      "password": "$2b$10$B1xldsccEtCPLaYM4.K8LuYtbg79vWu7NQe9qCL.ZsOpqawvt0csu",
+      "role": "instructor"
+    },
+    {
+      "id": 2,
+      "name": "Test User",
+      "email": "testuser2@example.com",
+      "password": "$2b$10$3MX5kE/WdGCCaxj3WHlG5ukuPx7IqdzA6jEWFn9hbckVPnuaNqzHu",
+      "role": "student"
+    },
+    {
+      "id": 3,
+      "name": "kareena",
+      "email": "kareena@gmail.com",
+      "password": "$2b$10$a/VxPT8XwcYnn5QGW.LmfOUNWPF0xnSj1jS9mDZG2dFVujwrDcyVC",
+      "role": "student"
+    },
+    {
+      "id": 4,
+      "name": "peter",
+      "email": "peter@gmail.com",
+      "password": "$2b$10$QWZkyM74avCca5w7/7.c8OQHcwOoGeEzydSfqg9vCu6Vn8KZMptWi",
+      "role": "student"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Java Programming Masterclass",
+      "category": "Programming",
+      "description": "Learn Java from scratch to advanced concepts. Master Object-Oriented Programming, Collections, and Multi-threading.",
+      "thumbnail": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+      "instructor_id": 1
+    },
+    {
+      "id": 2,
+      "title": "React.js Complete Guide 2024",
+      "category": "Web Development",
+      "description": "Ultimate guide to React 18+. Hooks, State Management, and building real-world applications.",
+      "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&q=80",
+      "instructor_id": 1
+    },
+    {
+      "id": 3,
+      "title": "Python Programming Masterclass",
+      "category": "Programming",
+      "description": "Complete Python course from beginner to advanced. Learn Python 3, data structures, OOP, and real-world projects.",
+      "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&q=80",
+      "instructor_id": 1
+    },
+    {
+      "id": 4,
+      "title": "Full Stack Web Development",
+      "category": "Web Development",
+      "description": "Become a full-stack developer with HTML, CSS, JavaScript, Node.js, Express, and MongoDB.",
+      "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80",
+      "instructor_id": 1
+    },
+    {
+      "id": 5,
+      "title": "Data Science Bootcamp",
+      "category": "Data Science",
+      "description": "Master data analysis, visualization, machine learning with Python, Pandas, NumPy, and Scikit-learn.",
+      "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+      "instructor_id": 1
+    },
+    {
+      "id": 6,
+      "title": "UI/UX Design Fundamentals",
+      "category": "Design",
+      "description": "Learn to design beautiful user interfaces and experiences. Master Figma, design principles, and prototyping.",
+      "thumbnail": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80",
+      "instructor_id": 1
+    },
+    {
+      "id": 7,
+      "title": "Mobile App Development with Flutter",
+      "category": "Mobile Development",
+      "description": "Build beautiful native apps for iOS and Android with Flutter and Dart programming language.",
+      "thumbnail": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80",
+      "instructor_id": 1
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "course_id": 1,
+      "title": "Java Basics",
+      "order_number": 1
+    },
+    {
+      "id": 2,
+      "course_id": 1,
+      "title": "Object-Oriented Programming",
+      "order_number": 2
+    },
+    {
+      "id": 3,
+      "course_id": 2,
+      "title": "React Fundamentals",
+      "order_number": 1
+    },
+    {
+      "id": 4,
+      "course_id": 2,
+      "title": "Advanced React",
+      "order_number": 2
+    },
+    {
+      "id": 5,
+      "course_id": 3,
+      "title": "Python Basics",
+      "order_number": 1
+    },
+    {
+      "id": 6,
+      "course_id": 3,
+      "title": "Python Advanced",
+      "order_number": 2
+    },
+    {
+      "id": 7,
+      "course_id": 4,
+      "title": "Frontend Development",
+      "order_number": 1
+    },
+    {
+      "id": 8,
+      "course_id": 4,
+      "title": "Backend Development",
+      "order_number": 2
+    },
+    {
+      "id": 9,
+      "course_id": 5,
+      "title": "Data Analysis",
+      "order_number": 1
+    },
+    {
+      "id": 10,
+      "course_id": 5,
+      "title": "Machine Learning",
+      "order_number": 2
+    },
+    {
+      "id": 11,
+      "course_id": 6,
+      "title": "Design Principles",
+      "order_number": 1
+    },
+    {
+      "id": 12,
+      "course_id": 6,
+      "title": "Figma Mastery",
+      "order_number": 2
+    },
+    {
+      "id": 13,
+      "course_id": 7,
+      "title": "Flutter Basics",
+      "order_number": 1
+    },
+    {
+      "id": 14,
+      "course_id": 7,
+      "title": "Building Real Apps",
+      "order_number": 2
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "section_id": 1,
+      "title": "Introduction to Java Programming",
+      "video_url": "https://www.youtube.com/watch?v=eIrMbWjk_fA",
+      "video_type": "youtube",
+      "duration": "4:26:52",
+      "order_number": 1,
+      "description": "Complete Java tutorial for beginners by Programming with Mosh"
+    },
+    {
+      "id": 2,
+      "section_id": 1,
+      "title": "Java Setup and Installation",
+      "video_url": "https://www.youtube.com/watch?v=RRubcjpTkks",
+      "video_type": "youtube",
+      "duration": "12:45",
+      "order_number": 2,
+      "description": "Setting up Java development environment"
+    },
+    {
+      "id": 3,
+      "section_id": 2,
+      "title": "Java OOP Concepts",
+      "video_url": "https://www.youtube.com/watch?v=tOidg_AAncI",
+      "video_type": "youtube",
+      "duration": "1:45:30",
+      "order_number": 1,
+      "description": "Object-Oriented Programming in Java explained"
+    },
+    {
+      "id": 4,
+      "section_id": 3,
+      "title": "React JS Crash Course",
+      "video_url": "https://www.youtube.com/watch?v=w7ejDZ8SWv8",
+      "video_type": "youtube",
+      "duration": "1:48:36",
+      "order_number": 1,
+      "description": "Complete React crash course by Traversy Media"
+    },
+    {
+      "id": 5,
+      "section_id": 3,
+      "title": "React Hooks Explained",
+      "video_url": "https://www.youtube.com/watch?v=TNhaISOUy6Q",
+      "video_type": "youtube",
+      "duration": "48:45",
+      "order_number": 2,
+      "description": "Understanding React Hooks in depth"
+    },
+    {
+      "id": 6,
+      "section_id": 4,
+      "title": "Redux Toolkit Complete Tutorial",
+      "video_url": "https://www.youtube.com/watch?v=9boMnm5X9ak",
+      "video_type": "youtube",
+      "duration": "1:05:40",
+      "order_number": 1,
+      "description": "Master Redux Toolkit for state management"
+    },
+    {
+      "id": 7,
+      "section_id": 5,
+      "title": "Python for Beginners",
+      "video_url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+      "video_type": "youtube",
+      "duration": "4:26:52",
+      "order_number": 1,
+      "description": "Full Python course by freeCodeCamp"
+    },
+    {
+      "id": 8,
+      "section_id": 5,
+      "title": "Python OOP Tutorial",
+      "video_url": "https://www.youtube.com/watch?v=JeznW_7DlB0",
+      "video_type": "youtube",
+      "duration": "32:15",
+      "order_number": 2,
+      "description": "Object-Oriented Programming in Python"
+    },
+    {
+      "id": 9,
+      "section_id": 6,
+      "title": "Python Django Framework",
+      "video_url": "https://www.youtube.com/watch?v=PtQiiknWUcI",
+      "video_type": "youtube",
+      "duration": "2:45:00",
+      "order_number": 1,
+      "description": "Build web applications with Django"
+    },
+    {
+      "id": 10,
+      "section_id": 7,
+      "title": "HTML & CSS Complete Course",
+      "video_url": "https://www.youtube.com/watch?v=mU6anWqZJcc",
+      "video_type": "youtube",
+      "duration": "11:30:00",
+      "order_number": 1,
+      "description": "Learn HTML and CSS from scratch"
+    },
+    {
+      "id": 11,
+      "section_id": 7,
+      "title": "JavaScript Tutorial for Beginners",
+      "video_url": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+      "video_type": "youtube",
+      "duration": "3:26:42",
+      "order_number": 2,
+      "description": "Complete JavaScript course by freeCodeCamp"
+    },
+    {
+      "id": 12,
+      "section_id": 8,
+      "title": "Node.js & Express Tutorial",
+      "video_url": "https://www.youtube.com/watch?v=Oe421EPjeBE",
+      "video_type": "youtube",
+      "duration": "2:25:00",
+      "order_number": 1,
+      "description": "Backend development with Node.js and Express"
+    },
+    {
+      "id": 13,
+      "section_id": 9,
+      "title": "Pandas Tutorial",
+      "video_url": "https://www.youtube.com/watch?v=vmEHCJofslg",
+      "video_type": "youtube",
+      "duration": "1:10:20",
+      "order_number": 1,
+      "description": "Data analysis with Pandas in Python"
+    },
+    {
+      "id": 14,
+      "section_id": 9,
+      "title": "Data Visualization with Python",
+      "video_url": "https://www.youtube.com/watch?v=0P7QNZIQmG4",
+      "video_type": "youtube",
+      "duration": "52:15",
+      "order_number": 2,
+      "description": "Create charts and visualizations with Matplotlib"
+    },
+    {
+      "id": 15,
+      "section_id": 10,
+      "title": "Machine Learning Tutorial",
+      "video_url": "https://www.youtube.com/watch?v=7eh4d6sabA0",
+      "video_type": "youtube",
+      "duration": "1:15:30",
+      "order_number": 1,
+      "description": "Introduction to Machine Learning with Python"
+    },
+    {
+      "id": 16,
+      "section_id": 11,
+      "title": "UI Design Principles",
+      "video_url": "https://www.youtube.com/watch?v=c9Wg6Cb_YlU",
+      "video_type": "youtube",
+      "duration": "45:20",
+      "order_number": 1,
+      "description": "Fundamentals of UI design"
+    },
+    {
+      "id": 17,
+      "section_id": 11,
+      "title": "Color Theory for Designers",
+      "video_url": "https://www.youtube.com/watch?v=QkCVrNoqcBU",
+      "video_type": "youtube",
+      "duration": "38:15",
+      "order_number": 2,
+      "description": "Understanding color in design"
+    },
+    {
+      "id": 18,
+      "section_id": 12,
+      "title": "Figma Complete Tutorial",
+      "video_url": "https://www.youtube.com/watch?v=FTFaQWZBqQ8",
+      "video_type": "youtube",
+      "duration": "1:12:30",
+      "order_number": 1,
+      "description": "Master Figma for UI/UX design"
+    },
+    {
+      "id": 19,
+      "section_id": 13,
+      "title": "Flutter Crash Course",
+      "video_url": "https://www.youtube.com/watch?v=x0uinJvhNxI",
+      "video_type": "youtube",
+      "duration": "1:30:00",
+      "order_number": 1,
+      "description": "Build mobile apps with Flutter"
+    },
+    {
+      "id": 20,
+      "section_id": 13,
+      "title": "Dart Programming Language",
+      "video_url": "https://www.youtube.com/watch?v=5xlVP04905w",
+      "video_type": "youtube",
+      "duration": "1:45:00",
+      "order_number": 2,
+      "description": "Learn Dart for Flutter development"
+    },
+    {
+      "id": 21,
+      "section_id": 14,
+      "title": "Building a Complete Flutter App",
+      "video_url": "https://www.youtube.com/watch?v=VPvVD8t02U8",
+      "video_type": "youtube",
+      "duration": "2:00:00",
+      "order_number": 1,
+      "description": "Real-world Flutter app development"
+    }
+  ],
+  "enrollments": [],
+  "progress": []
+}
