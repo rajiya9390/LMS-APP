@@ -27,6 +27,13 @@
       "email": "peter@gmail.com",
       "password": "$2b$10$QWZkyM74avCca5w7/7.c8OQHcwOoGeEzydSfqg9vCu6Vn8KZMptWi",
       "role": "student"
+    },
+    {
+      "id": 5,
+      "name": "sheroo",
+      "email": "sheroo@gmail.com",
+      "password": "$2b$10$3JPfoIzKAC0V954DmvmX2OmybmVeRxyBfw4dZ/G5BNANoeqVWsAxy",
+      "role": "student"
     }
   ],
   "courses": [
@@ -178,7 +185,7 @@
       "id": 1,
       "section_id": 1,
       "title": "Introduction to Java Programming",
-      "video_url": "https://www.youtube.com/watch?v=eIrMbWjk_fA",
+      "video_url": "https://www.youtube.com/watch?v=RRubcjpTkks",
       "video_type": "youtube",
       "duration": "4:26:52",
       "order_number": 1,
@@ -188,7 +195,7 @@
       "id": 2,
       "section_id": 1,
       "title": "Java Setup and Installation",
-      "video_url": "https://www.youtube.com/watch?v=RRubcjpTkks",
+      "video_url": "https://www.youtube.com/watch?v=BGTx91s8D2U",
       "video_type": "youtube",
       "duration": "12:45",
       "order_number": 2,
@@ -198,7 +205,7 @@
       "id": 3,
       "section_id": 2,
       "title": "Java OOP Concepts",
-      "video_url": "https://www.youtube.com/watch?v=tOidg_AAncI",
+      "video_url": "https://www.youtube.com/watch?v=6GvP6t2R3jU",
       "video_type": "youtube",
       "duration": "1:45:30",
       "order_number": 1,
@@ -385,6 +392,13 @@
       "description": "Real-world Flutter app development"
     }
   ],
-  "enrollments": [],
+  "enrollments": [
+    {
+      "id": 1,
+      "user_id": 5,
+      "course_id": 1,
+      "enrolled_at": "2026-03-06T06:03:38.224Z"
+    }
+  ],
   "progress": []
 }

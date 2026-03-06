@@ -69,7 +69,7 @@ router.post('/', authenticate, async (req, res) => {
 });
 
 // Update progress (legacy endpoint)
-router.post('/progress/complete', authenticate, async (req, res) => {
+router.post('/complete', authenticate, async (req, res) => {
     const { lessonId, courseId } = req.body;
     try {
         await db.execute(
@@ -85,7 +85,7 @@ router.post('/progress/complete', authenticate, async (req, res) => {
 });
 
 // Get user progress for a course
-router.get('/progress/:courseId', authenticate, async (req, res) => {
+router.get('/:courseId', authenticate, async (req, res) => {
     try {
         const [progress] = await db.execute(`
             SELECT p.* 

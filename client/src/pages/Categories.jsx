@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import { BookOpen, Play, Grid, Code, Database, Palette, BarChart, Globe, Cpu } from 'lucide-react';
+import { BookOpen, Play, Grid, Code, Database, Palette, BarChart, Globe, Cpu, Smartphone } from 'lucide-react';
 
 const categoryIcons = {
     'Programming': Code,
@@ -10,6 +10,7 @@ const categoryIcons = {
     'Business': BarChart,
     'Web Development': Globe,
     'AI & ML': Cpu,
+    'Mobile Development': Smartphone,
 };
 
 const Categories = () => {
